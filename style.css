@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: sticky;
+top: 0;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+z-index: 100;
+background-color: white;
+}
+.head1{
+    display: flex;   
+}
+
+.head1 li{
+    /* margin: 20px 15px; */
+    margin-left: 25px;
+    margin-top: 15px;
+    list-style-type: none;
+
+    
+}
+
+.head1 li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.head1 li a:hover{
+    color: green;
+
+}
+
+
+
+.head1 .btn1{
+    
+    position: relative;
+display: inline-block;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 20px;
+    background-color: rgb(0,128,0);
+    color: white;
+    font-size: 15px;
+}
+
+.head1 .btn1:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: white;
+}
+.head1 .login{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.head1 .login:hover{
+    cursor: pointer;
+}
+
+
+
+.btn2{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-color: white;
+}
+
+.search-container {
+   
+position: relative;
+display: inline-block;
+margin-left: 250px;
+margin-bottom: 10px;
+}
+
+.search-icon {
+position: absolute;
+left: 5px; /* Adjust the left position to align the image as desired */
+top: 50%;
+transform: translateY(-50%);
+width: 20px;
+height: 20px;
+}
+
+input[type="search"] {
+margin: 0;
+padding-left: 25px;
+padding-right: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+border-color: rgb(228,235,228);
+/* Make space for the image */
+}
+
+
+.head2{
+    display: flex;
+    
+}
+
+.head2 li{
+    margin: 20px 15px;
+    list-style-type: none;
+
+    
+}
+
+.head2 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    
+
+}
+
+.head2 li a:hover{
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
+
+}
+
+.container {
+display: flex; /* Use flexbox for layout */
+justify-content: space-between; /* Separate the left and right sections */
+padding: 20px;
+margin-left: 50px; /* Add some padding for spacing */
+}
+
+/* Styling for the left section */
+.leftside {
+font-size: 15px;
+flex-basis: 48%; /* Adjust the width as needed */
+padding: 10px; 
+width:200px;
+
+}
+
+.leftside h5{
+font-size: 80px;
+color: rgb(20,168,0);
+/* padding-bottom: 5px; */
+}
+
+.leftside p{
+font-size: 30px;
+padding-top: 5px;
+}
+
+.leftside button{
+border-radius: 30px;
+padding: 10px 30px;
+background-color: rgb(0,128,0);
+color: white;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+
+.leftside button:hover{
+cursor: pointer;
+background-color: lightgreen;
+}
+
+.btn3{
+margin-top: 10px;
+}
+
+.leftside h6{
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 17px;
+padding-left: 10px;
+}
+
+.leftside h4{
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 17px;
+padding-left: 10px;
+font-size: 20px;
+color: white;
+margin-left: 20px;
+}
+
+.leftside .box{
+border: 1px solid gray;
+padding-top: 200px;
+padding-bottom: 150px;
+background-color: rgb(242,247,242);
+}
+
+
+.leftside h3{
+font-size: 40px;
+margin-top: 5px;
+margin-bottom: 12px;
+}
+
+.leftside .para{
+font-size: 20px;
+display: inline;
+
+}
+
+.leftside a{
+color: rgb(0,128,0);
+font-size: 20px;
+margin-left: 10px;
+
+}
+
+.leftside a:hover{
+cursor: pointer;
+color: greenyellow;
+}
+
+.leftside h6{
+font-size: 20px;
+color: black;
+margin-left: 20px;
+}
+
+.leftside h2{
+font-size: 40px;
+margin-left: 25px;
+color: white;
+margin-bottom: 10px;
+
+}
+
+.leftside .p1{
+display: inline-block;
+margin-left: 25px;
+margin-bottom: 2px;
+
+font-size: 15px;
+color: white;
+}
+
+.leftside img{
+margin-left: 25px;
+margin-top: 5px;
+}
+
+.leftside .span{
+color: rgb(144,229,178);
+}
+/* Styling for the right section */
+.rightside {
+font-size: 10px;
+flex-basis: 48%; /* Adjust the width as needed */
+padding: 10px; /* Add padding to the right section */
+}
+
+.rightside img{
+margin-left: 20px;
+}
+
+.rightside h5{
+font-size: 40px;
+padding-bottom: 15px;
+margin-left: 15px;
+
+}
+
+.rightside h6{
+font-size: 20px;
+padding-bottom: 10px;
+display: inline-block;
+margin-left: 10px;
+}
+
+.rightside p{
+font-size: 15px;
+margin-left: 50px;
+margin-bottom: 20px;
+}
+
+.rightside button{
+border-radius: 30px;
+padding: 10px 30px;
+background-color: rgb(0,128,0);
+color: white;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.rightside button:hover{
+cursor: pointer;
+background-color: lightgreen;
+}
+
+.container1{
+display: flex;
+flex-wrap: wrap;
+margin-left: 70px;
+margin-right: 50px;
+
+
+}
+
+.cotainer{
+flex: 0 0 calc(25% - 10px); /* Set the width for each item (50% for 4 items per row) */
+height: 100px;
+background-color: rgb(247,250,247);
+margin: 5px;
+box-sizing: border-box;
+border-radius: 12px;
+padding-left: 20px;
+padding-top: 10px;
+
+}
+
+.cotainer h5{
+font-size: 17px;
+}
+
+.cotainer p{
+font-size: 15px;
+display: inline;
+}
+
+.cotainer img{
+margin-top: 12px;
+}
+
+.cotainer:hover{
+cursor: pointer;
+background-color: lightgray;
+}
+
+
+.boxsize{
+border: 1px solid gray;
+box-sizing: border-box;
+border-radius: 12px;
+margin-left: 70px;
+margin-top: 20px;
+margin-right: 50px;
+background-color: rgb(19,84,78);
+display: flex; /* Use flexbox for layout */
+justify-content: space-between; /* Separate the left and right sections */
+padding: 20px;
+}
+
+.boxsize1{
+background-image: url(./images/img3.jpg);
+background-repeat: no-repeat;
+border: 1px solid gray;
+box-sizing: border-box;
+border-radius: 12px;
+margin-left: 70px;
+margin-top: 20px;
+margin-right: 40px;
+background-color: gray;
+padding-left: 30px;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+
+.boxsize1 h5{
+color: black;
+font-size: 20px;
+}
+
+.boxsize1 h2{
+color: black;
+padding-top: 50px;
+font-size: 50px;
+}
+
+.boxsize1 p{
+color: black;
+margin-top: 20px;
+font-size: 20px;
+}
+
+.cont1{
+display: flex;
+flex-wrap: wrap;
+width: 1200px;
+margin-left: 80px;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+
+.cotainer1{
+flex: 0 0 calc(25% - 10px); /* Set the width for each item (50% for 4 items per row) */
+height: 100px;
+background-color: green;
+margin: 10px;
+box-sizing: border-box;
+border-radius: 12px;
+padding-left: 30px;
+padding-top: 10px;
+
+color: white;
+
+
+}
+
+.cotainer1:hover{
+cursor: pointer;
+background-color: white;
+color: green;
+}
+
+.cotainer1 h4{
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+.cotainer1 h6{
+font-size: 15px;
+margin-bottom: 10px;
+}
+
